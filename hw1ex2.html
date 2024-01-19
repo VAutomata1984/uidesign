@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="UI Design HW I">
+    <meta name="author" content="Matthew Vollo (mjv2150)">
+
+    <title> 
+      HW 1 example 2: Tinder Recreation
+    </title>
+
+    <style>
+      *{
+        font-family: Arial;
+        margin: 0;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      /* Header */
+      .tinder-logo{
+        width: 150px;
+        margin-left: 100px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+      }
+      hr{
+        border: none;
+        height: 1px;
+        background-color: rgb(241, 241, 241);
+        width: 340px; 
+        margin-bottom: 10px;
+      }
+
+      /* Profile Info */
+      .tinder-profile{
+        width: 300px;
+        height: 365px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        box-shadow: 0px 0px 3px rgba(80, 79, 79, 0.3);
+        border-radius: 10px;
+        overflow: hidden; /* Add this to hide overflowing content */
+      }
+      .tinder-photo{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        margin-bottom: 5px;
+      }
+      .description{
+        margin-left: 16px;
+        margin-top: 5px;
+      }
+      .name{
+        font-weight: 600;
+        margin-bottom: 7px;
+      }
+      .checkmark{
+        width: 17px;
+        margin-left: -1px;
+        margin-bottom: -1px;
+        position: relative;
+      }
+      .verified{
+        font-size: 12px;
+        font-weight: light;
+        color: gray;
+        margin-bottom: 10px;
+      }
+
+
+      /* Button */
+      .button{
+        background-color:#a4a4a4;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        font-weight: 500;
+        font-size: 16px;
+        cursor: pointer;
+
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center text horizontally and vertically */
+       
+        width: 200px;
+        height: 40px;
+        padding: 5px 10px; /* Simplify padding tb/lr */
+        margin: 0 auto; /* Center the button horizontally */
+
+        
+        
+        margin-left: 70px;
+      }
+
+    </style>
+  </head>
+  <body> 
+    <div id="container"> 
+
+      <div class="header"> 
+        <img class="tinder-logo" src="http://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/tinder_logo.png">
+        <hr /> 
+      </div>
+
+      <div class="tinder-profile">
+          <img class="tinder-photo" 
+          src="http://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/tinder_person.png">
+
+          <div class="description">
+            <p class="name"> Sean Rad, 29 <span> 
+              <img class = "checkmark" 
+              src="http://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/tinder_verified.png" > </span> </p>
+            <p class="verified"> Verified </p>
+          </div>
+      </div>
+
+      <div class="button-container"> 
+        <button class="button" type="button"><p>&#10084; Like Me On Tinder</p></button> 
+      </div>
+
+
+    </div>
+
+  </body>
+</html>
