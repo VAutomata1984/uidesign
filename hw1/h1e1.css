@@ -1,0 +1,19 @@
+*{
+  padding-bottom: 15px;
+}
+
+.main{
+  font-size: 26px;
+}
+
+.bold{
+  font-weight: 900;
+}
+
+.gray{
+  color: gray;
+}
+
+.small{
+  font-size: 14px;
+}
