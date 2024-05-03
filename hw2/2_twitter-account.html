@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" 
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+  crossorigin="anonymous">
+
+  <title>UI Design Hw 2 Example III </title>
+
+  <!-- 
+    UI Design Hw 2 Example III:  2_twitter-account
+    Code Author: Matthew Vollo
+    Note: For my convenience, I've changed the name of this file to h2e2.
+    h2e2 stands for Homework 2, Example 3.
+
+    In the offical homework, this is listed as example 1 and the original name of
+    the file is: 2_twitter-account.html
+
+    TRBL
+  -->
+  
+  <style>
+    #container{
+      background-color: #add8e6;
+      height: 100%;
+    }
+
+    img{
+      width: 100%; 
+      height: auto;
+    }
+
+    /* Col 1 */
+    #col1{
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-right: 10px; /* This may be liable to change later */
+    }
+
+    .col1text{
+      margin-bottom: 3px;
+    }
+
+    .myheader{
+      font-weight: 700;
+    }
+
+    .subheader{
+      font-size: 11px;
+      color: gray;
+    }
+
+    .button{
+      font-size: 12px;
+      padding: 2px 5px 2px 5px;
+      margin-bottom: 10px;
+    }
+
+    .col1{
+      padding: 1px !important; 
+    }
+
+    .container2{
+      margin-left: 10px;
+    }
+  
+    /* Col 2 */
+
+    .section1{
+      background-color: white;
+      height: 45px;
+    }
+
+    .search1{
+      font-weight: 600;
+      margin-right: -10px;
+      margin-top: 10px;
+    }
+
+    .make-white{
+      background-color: white;
+      padding-bottom: 5px; 
+    }
+
+    .tweet_title{
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .tweet{
+      font-size: 13px;
+      margin-bottom: 5px;
+    }
+
+    /* Col 3 */
+
+    .col3-item{
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .col3-title{
+      margin-bottom: 10px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+    
+    
+    .col3_img{
+      display: inline-block;
+      width: 70px;
+    }
+
+    .col3-text{
+      display: inline-block;
+      vertical-align: top; /* Align the text container to the top */
+    }
+  
+    .col3-text-title{
+      margin-bottom: 0;
+      font-size: 12px;
+    }
+
+    .graybutton{
+      background-color: rgb(222, 222, 222);
+      border: 1px;
+    }
+
+    hr{
+      margin-top: 0px;
+      margin-bottom: 10px;
+    }
+
+   
+    .hashtag{
+      margin: 0px;
+      font-size: 12px;
+      font: bold;
+      color: blue;
+    }
+
+    .hashtag_numbers{
+      font-size: 10px;
+      color: gray;
+    }
+
+  </style>
+
+</head>
+<body>
+  <div id = "container"> 
+    <div class="row"> 
+
+      <!-- Col1 -->
+      <div class="col-md-1"> </div>
+      <div class="col-md-2" id="col1">
+        
+        <p class="col1text myheader"> Columbia University</p>
+        <p class="col1text subheader"> @Columbia </p>
+        <button class="button"> Tweet to Columbia </button>
+
+        <div class="container2"> 
+          <div class="row">
+            <div class="col col1"> <img src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"> </div>
+            <div class="col col1"> <img src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"> </div>
+            <div class="col col1"> <img src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"> </div>
+          </div>
+          <div class="row"> 
+            <div class="col col1"> <img src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"> </div>
+            <div class="col col1"> <img src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"> </div>
+            <div class="col col1"> <img src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"> </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- Col2 -->
+      <div class="col-md-6" id="col2"> 
+        <div class="row mb-1 section1"> 
+          <div class="col text-center search1">Tweets</div>
+          <div class="col text-center search1">Media</div>
+          <div class="col text-center search1">News</div>
+          <div class="col text-center search1">Trending</div>
+          <div class="col-md-6 text-center"></div>
+        </div>
+
+        <!-- Tweet I -->
+        <div class="row mb-1 make-white"> 
+          <div class="col-2 mt-1"> 
+            <img src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"></div>
+          <div class="col-10 mt-1"> 
+            <p class="tweet_title">Columbia University</p>
+            <p class="tweet"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+              laboris nisi ut aliquip ex ea commodo consequat. </p>   
+          </div>
+          <div class="col-2 mt-1"></div>
+          <div class="col-10 mt-1">
+            <img src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg">
+          </div>
+        </div>
+
+        <!-- Tweet II -->
+        <div class="row mb-1 make-white"> 
+          <div class="col-2 mt-1"> 
+            <img src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"></div>
+          <div class="col-10 mt-1"> 
+            <p class="tweet_title">Columbia University</p>
+            <p class="tweet"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+              laboris nisi ut aliquip ex ea commodo consequat. </p>   
+          </div>
+          <div class="col-2 mt-1"></div>
+          <div class="col-10 mt-1" >
+            <img class="col_img img_smaller" src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg">
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <!-- Col3 -->
+      <div class="col-md-2 ml-1" id="col3"> 
+        <div class="col3box make-white pt-2 pl-2">
+          <p class="col3-title"> Who to follow </p>
+          <div class="col3-item mb-2">
+              <img class="col3_img" src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg" alt="Columbia University">
+              <div class="col3-text">
+                  <p class="col3-text-title">Columbia</p>
+                  <button class="button graybutton">Follow</button>
+              </div>
+          </div>
+          <hr> 
+          <div class="col3-item mb-2">
+            <img class="col3_img" src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg" alt="Columbia University">
+            <div class="col3-text">
+                <p class="col3-text-title">Columbia</p>
+                <button class="button graybutton">Follow</button>
+            </div>
+          </div>
+          <hr>
+          <div class="col3-item mb-2">
+            <img class="col3_img" src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg" alt="Columbia University">
+            <div class="col3-text">
+                <p class="col3-text-title">Columbia</p>
+                <button class="button graybutton">Follow</button>
+            </div>
+          </div>
+        </div>
+        <div class="col3box make-white mt-3 pl-2"> 
+          <p class="col3-title pt-2"> Trends for you!</p>
+          <div class="trend_text"> 
+            <p class="hashtag"> #uidesign</p>
+            <p class="hashtag_numbers">10k tweets</p>
+          </div>
+          <div class="trend_text"> 
+            <p class="hashtag"> #jazzfusion</p>
+            <p class="hashtag_numbers">25k tweets</p>
+          </div>
+        </div>
+       </div>
+      
+      
+    </div>
+  </div>
+  
+</body>
+</html>

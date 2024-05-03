@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" 
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+  crossorigin="anonymous">
+  <title>1_twitter-home</title>
+
+  <!-- 
+    UI Design Hw 2 Example II:  1_twitter-home.html
+    Code Author: Matthew Vollo
+    Note: For my convenience, I've changed the name of this file to h2e2.
+    h2e2 stands for Homework 2, Example 2.
+
+    In the offical homework, this is listed as example 1 and the original name of
+    the file is: 1_twitter-home.html
+  -->
+
+  <style>
+    /*All CSS Styles go here. */
+    .row-centered{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      height: 60px;
+      /*
+      padding-top: 30px;
+      padding-bottom: 30px;
+      */
+    }
+    .title{
+      font-size: 20px;
+      background-color: lightblue;
+
+    }
+    .navbar{
+      background-color: lightgray;
+      font-size: 14px;
+      white-space: nowrap;
+    }
+
+    .header{
+      font-size: 14px;
+      white-space: nowrap;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-left: 20px;
+    }
+
+    img{
+      width: 100%; 
+      height: auto;
+    }
+
+    .subhead{
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+   
+  </style>
+
+</head>
+<body>
+  <div class="container"> 
+    <div class="row row-centered title"> 
+      <div class="col text-center"> What's happening?</div>
+    </div>
+
+    <div class="row navbar">
+      <div class="col text-center">Home</div>
+      <div class="col text-center">About</div>
+      <div class="col text-center">Submission Deadlines</div>
+      <div class="col text-center">FAQ</div>
+      <div class="col text-center">Contact</div>
+      <div class="col-6"> </div>
+    </div>
+
+    <div class="header"> Section header </div>
+    <br> 
+
+    <div class="mini_container"> 
+      <div class="row"> 
+        <div class="col-md-6">
+          <div class="subhead"> title 1 </div>
+          <img src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"> 
+        </div>
+      </div>
+
+      <div class="row"> 
+        <div class="col-md-3 col-sm-6 col-xs-6"> 
+          <div class="subhead"> title 2 </div>
+          <img src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"> 
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-6"> 
+          <div class="subhead"> title 3 </div>
+          <img src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"> 
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-6"> 
+          <div class="subhead"> title 4 </div>
+          <img src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"> 
+        </div>
+      </div>
+
+      <div class="row row-centered"> Featured </div>
+    </div>
+
+    <div class="featured_container"> 
+      <div class="row"> 
+        <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="subhead"> title 5 </div>
+          <img src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"> 
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="subhead"> title 6 </div>
+          <img src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"> 
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="subhead"> title 7 </div>
+          <img src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"> 
+        </div>
+      </div>
+    </div>
+  </div> 
+  
+</body>
+</html>
